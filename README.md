@@ -5,3 +5,6 @@ Insights and recommendations are provided on the following key areas:
   - the top rating of the books by readers 
   - the popularity of books in Goodreads platform
   - the rating consistency of each book
+
+Data Structure 
+
