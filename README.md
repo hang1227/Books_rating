@@ -12,10 +12,12 @@ Goodreads data structure consist of five tables: books, ratings, to_read, book_t
 Prior to beginning the analysis, data cleaning had been performed in python to screen through the data if have any null values and replace it with the correct data format. The code is presented as below:
 <img width="784" height="306" alt="image" src="https://github.com/user-attachments/assets/76c41ae5-f192-4b5f-adc3-9e6ad68499c8" />
 
-After done cleaning, the data is transformed to CSV again for data analysis in PostgreSQL. Analysis is started with the ratings table to generate the average ratings for each book, the reader rating count, and the standard deviation of the rating in one table using CTE and consolidate it with the books table. 
+After done cleaning, the data is transformed to CSV again for data analysis in PostgreSQL. Analysis is started with the ratings table to generate the average ratings for each book, the reader rating count, and the standard deviation of the rating in one table using CTE and consolidate it with the books table. The consolidated table will be used for data visualization in Tableau. 
 
 The sql code is shown as below:
 <img width="1022" height="279" alt="image" src="https://github.com/user-attachments/assets/5ce1181f-fe14-4702-9191-12086b9a0d96" />
+
+The joining table:
 <img width="1498" height="772" alt="image" src="https://github.com/user-attachments/assets/454ce579-8af2-4676-8e36-651c2ffc5b79" />
 
 
