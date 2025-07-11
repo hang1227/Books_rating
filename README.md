@@ -10,4 +10,5 @@ Data Structure
 Goodreads data structure consist of five tables: books, ratings, to_read, book_tags, and tags
 <img width="1035" height="524" alt="image" src="https://github.com/user-attachments/assets/5dc7bd9e-f5c5-403a-bb35-26f1b989ef1a" />
 Prior to beginning the analysis, data cleaning had been performed in python to screen through the data if have any null values and replace it with the correct data format. The code is presented as below:
+<img width="784" height="306" alt="image" src="https://github.com/user-attachments/assets/76c41ae5-f192-4b5f-adc3-9e6ad68499c8" />
 
