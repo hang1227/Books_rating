@@ -7,4 +7,5 @@ Insights and recommendations are provided on the following key areas:
   - the rating consistency of each book
 
 Data Structure 
+<img width="1035" height="524" alt="image" src="https://github.com/user-attachments/assets/5dc7bd9e-f5c5-403a-bb35-26f1b989ef1a" />
 
