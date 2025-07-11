@@ -38,5 +38,14 @@ Standard deviation of rating:
 Rating count 
 1. All books have high engagement, with most receiving 96–100 ratings.
 2. "Peter and the Shadow Thieves" has the lowest count (70), which might explain its high standard deviation due to fewer ratings often show more variability.
-3. 
+
+Key insight:
+1. "Still Life with Woodpecker" is likely the most consistently well-rated book in this list (high avg, low std dev, and high count).
+2. "Peter and the Shadow Thieves" is more controversial or niche, with fewer ratings and higher variability.
+3. The rest of the books are well-liked by readers, with generally high ratings and solid consistency.
+
+Recommendation to improve the data analysis in future:
+1. Filter or group books based on minimum rating count threshold (example: >100 or >500 ratings) 
+2. Explore correlation between rating and popularity
+
 
