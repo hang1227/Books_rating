@@ -7,5 +7,22 @@ Insights and recommendations are provided on the following key areas:
   - the rating consistency of each book
 
 Data Structure 
+Goodreads data structure consist of five tables: books, ratings, to_read, book_tags, and tags
 <img width="1035" height="524" alt="image" src="https://github.com/user-attachments/assets/5dc7bd9e-f5c5-403a-bb35-26f1b989ef1a" />
+Prior to beginning the analysis, data cleaning had been performed in python to screen through the data if have any null values and replace it with the correct data format. The code is presented as below:
+import pandas as pd
+book=pd.read_csv("books.csv")
+print(book.info())#observe null values in book.csv 
+print(book.head())#no lower case and space in 
 
+#Fill the null value with 0
+col_to_fill=["isbn", "isbn13", "original_publication_year", "original_title", "language_code"]
+for col in col_to_fill:
+    if book[col].dtype == "o":
+        book[col] = book[col].fillna("")
+    else:
+        book[col] = book[col].fillna(0)
+print(book.info())
+print(book.head())
+
+book.to_csv("books_1.csv", index=False)
