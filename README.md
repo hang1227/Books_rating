@@ -6,7 +6,7 @@ Insights and recommendations are provided on the following key areas:
   - the popularity of books in Goodreads platform - the count of the reader rating
   - the rating consistency of each book - the standard deviation of the rating 
 
-Data Structure 
+Data Structure:
 Goodreads data structure consist of five tables: books, ratings, to_read, book_tags, and tags
 <img width="1035" height="524" alt="image" src="https://github.com/user-attachments/assets/5dc7bd9e-f5c5-403a-bb35-26f1b989ef1a" />
 Prior to beginning the analysis, data cleaning had been performed in python to screen through the data if have any null values and replace it with the correct data format. The code is presented as below:
@@ -20,6 +20,10 @@ The sql code is shown as below:
 The joining table:
 <img width="1498" height="772" alt="image" src="https://github.com/user-attachments/assets/454ce579-8af2-4676-8e36-651c2ffc5b79" />
 
+Executive summary:
+Top ten rated books in Goodreads platform has been summarized with its average rating, std rating, and number of rating for each book by readers. 
+
+<img width="1216" height="809" alt="Sheet 2" src="https://github.com/user-attachments/assets/610aa7cc-e5be-4fc6-9aa7-f34796ad1781" />
 
 
 
